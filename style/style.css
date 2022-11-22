@@ -21,6 +21,8 @@ h2 {
     opacity: 86%;
     width: 186px;
     height: 36px;
+    font-weight: 400;
+    
 }
 
 nav div {
@@ -29,6 +31,7 @@ nav div {
 }
 
 .nav-1 {
+    align-items: center;
     gap: 7.33px;
 }
 
@@ -79,7 +82,7 @@ nav button {
 header {
     display: flex;
     gap: 24px;
-    height: 486px;
+    height: 390px;
     padding: 48px 40px;
     background-color: rgba(227, 222, 215, 0.3);
     font-weight: 600;
@@ -93,28 +96,49 @@ article {
     gap: 16px;
 }
 
+article *{
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
 article div {
     display: flex;
     gap: 16px;
+}
+
+article > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(17, 24, 39, 1);
 }
 
 h3 {
     height: 24px;
     font-size: 18px;
     color: #2A5B45;
+    font-weight: 600;
+}
 
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
 }
 
 header button {
     height: 40px;
     padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
     border: none;
     border-radius: 4px;
     background-color: rgba(31, 24, 21, 1);
     color: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
 }
 
-button:last-child {
+header button:last-child {
     background-color: rgba(42, 91, 69, 1);
 }
 
@@ -124,11 +148,13 @@ header>img {
     width: 588px;
     height: 390px;
     border-radius: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .coffe-cup {
     width: 20.29px;
     height: 24.95px;
+    
 }
 
 .wphone {
