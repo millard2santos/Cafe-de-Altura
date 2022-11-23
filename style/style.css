@@ -182,7 +182,7 @@ article.card {
     border: 1px solid #F7F5F3;
     box-shadow: 0px 1px 4px rgba(227, 222, 215, 0.8);
     border-radius: 8px;
-    background-color: rgba(247, 245, 243, 1);
+    background-color: #FFFFFF;
 }
 
 article.card p:nth-of-type(1) {
@@ -190,7 +190,7 @@ article.card p:nth-of-type(1) {
     font-weight: 600;
     line-height: 24px;
     text-align: center;
-    color:rgba(43, 42, 43, 1);
+    color: rgba(43, 42, 43, 1);
 }
 
 article.card p:nth-of-type(2) {
@@ -203,9 +203,45 @@ article.card p:nth-of-type(2) {
 
 /* -------------------------------------------------------SECTION NEWS--------------------------------------------------- */
 
-.news{
-    height: 523,39px;
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 523.39px;
+    padding: 40px;
+    gap: 42px;
     background-color: pink;
+}
+
+.hold-cards-coffe {
+    display: flex;
+    justify-content: space-between;
+    height: 391.39px;
+    gap: 24px;
+
+
+}
+
+.card-coffe {
+    width: 258px;
+    height: 343.93px;
+    padding: 24px;
+    background-color: rgba(247, 245, 243, 1);
+    border: 1px solid #E3DED7;
+    border-radius: 8px;
+    /* flex-grow: 1; */
+}
+
+.news button {
+    width: 52px;
+    height: 24px;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #2A5B45;
+    border-radius: 4px;
+    border: none;
 }
 
 
@@ -220,7 +256,6 @@ header>img {
 .coffe-cup {
     width: 20.29px;
     height: 24.95px;
-
 }
 
 .wphone {
@@ -231,5 +266,9 @@ header>img {
 .card img {
     width: 52px;
     height: 52px;
+}
 
+.card-coffe img {
+    width: 219.39px;
+    height: 219.39px;
 }
