@@ -428,7 +428,7 @@ section.form {
 .hold-form {
     display: flex;
     gap: 24px;
-    height: 512px;
+    /* height: 512px; */
 }
 
 .form-txt {
@@ -439,22 +439,22 @@ section.form {
     gap: 12px;
 }
 
-.form-txt h4{
+.form-txt h4 {
     color: #111827;
     font-size: 18px;
     font-weight: 600;
 }
 
-.form-txt > p:nth-of-type(2){
-    margin-top:20px;
-    margin-bottom:12px;
+.form-txt>p:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 12px;
 }
 
-.form-txt div:last-child{
-    margin-top:20px;
+.form-txt div:last-child {
+    margin-top: 20px;
 }
 
-.form-txt p{
+.form-txt p {
     color: #6B7280;
     font-size: 14px;
     font-weight: 400;
@@ -465,21 +465,84 @@ section.form {
     gap: 15px;
 }
 
-.form-txt > .form-txt-address{
+.form-txt>.form-txt-address {
 
     flex-direction: column;
-    gap:0px;
+    gap: 0px;
+    margin-bottom: 7px;
 }
 
-.form-txt-last p:last-child{
+.form-txt-last p:last-child {
     color: #111827;
     font-weight: 600;
     text-decoration: underline;
 }
 
-.form-txt > .form-txt-last{
-    gap:3px;
+.form-txt>.form-txt-last {
+    gap: 3px;
 }
+
+.form-actual {
+    width: 528px;
+    /* height: 458px; */
+    background-color: rgb(255, 255, 255);
+    padding: 32px 51px 32px 51px;
+}
+
+.form-actual>form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+input[required],
+textarea {
+    padding: 9px 13px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.form-actual>form>div[class*="form-actual"] {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.form-actual label {
+    font-size: 12px;
+    font-weight: 400;
+    color: #374151;
+}
+
+#form-check {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#form-check label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #374151;
+}
+
+.condition-span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+input[type="submit"]{
+    background-color: #2A5B45;
+    padding: 12px 24px;
+    border-radius: 4px;
+    width: 90px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+}
+
 
 /* --------------------------------IMAGENES---------------------------- */
 header>img {
@@ -529,6 +592,11 @@ header>img {
 .location-last img {
     width: 18px;
     height: 8px;
+}
+
+.location-img {
+    width: 588px;
+    height: 390px;
 }
 
 .form-txt img {

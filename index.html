@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
     <nav>
         <div class="nav-1">
             <h2>cafedealtura.com</h2>
@@ -154,14 +153,15 @@
                         <img src="/assets/rightArrow.png" alt="">
                     </div>
                 </article>
-                <img src="/assets/nthSection.jpg" alt="">
+                <img src="/assets/nthSection.jpg" alt="" class="location-img">
             </div>
         </section>
         <section class="form">
             <div class="hold-form">
                 <article class="form-txt">
                     <h4>Entra en contacto con nosotros</h4>
-                    <p>Si tienes dudas, ponte en contacto con nostros a través del formularioy te responderemos lo antes
+                    <p>Si tienes dudas, ponte en contacto con nostros a través del formulario y te responderemos lo
+                        antes
                         posible</p>
                     <p>También puedes ponerteen contacto con nosotros en nuestra dirección o a través del teléfono de la
                         tienda</p>
@@ -182,7 +182,32 @@
                         <p>Ver nuestras ofertas</p>
                     </div>
                 </article>
-                <article class="form-actual"></article>
+                <article class="form-actual">
+                    <form action="">
+                        <div class="form-actual-name">
+                            <label for="name">Nombre completo</label>
+                            <input type="text" id="name" name="Name" required>
+                        </div>
+                        <div class="form-actual-email">
+                            <label for="mail">Email</label>
+                            <input type="email" id="mail" name="e-mail" required>
+                        </div>
+                        <div class="form-actual-margin">
+                            <label for="tlf">Teléfono</label>
+                            <input type="tel" id="tlf" name="Phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required
+                                placeholder="+1 (555) 987-6543">
+                        </div>
+                        <label for=""></label>
+                        <textarea name="comment" id="comment" rows="6"
+                            placeholder="¿En qué puedo ayudarte?"></textarea>
+                        <div id="form-check">
+                            <input type="checkbox" name="Accept" id="condition" required>
+                            <label for="condition">Acepto la <span class="condition-span">Política de Privacidad</span> y los <span class="condition-span">Términos y condiciones.</span></label>
+                        </div>
+                        
+                        <input type="submit" name="" id="" value="Enviar">
+                    </form>
+                </article>
             </div>
         </section>
     </main>
