@@ -301,12 +301,12 @@ article.card p:nth-of-type(2) {
 }
 
 /* ---------------------------------PREGUNTAS FRECUENTES---------------------------- */
-section.qa{
+section.qa {
     background-color: #2A5B45;
     padding: 48px 306px;
 }
 
-.hold-qa{
+.hold-qa {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,13 +317,13 @@ section.qa{
 
 
 
-.qa h2{
+.qa h2 {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 26px;
 }
 
-.qa-last{
+.qa-last {
     font-size: 14px;
     font-weight: 600;
     display: flex;
@@ -334,7 +334,7 @@ section.qa{
     margin-top: 12px
 }
 
-.qa-div{
+.qa-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -346,51 +346,54 @@ section.qa{
     color: rgba(43, 42, 43, 1);
 }
 
-.qa-div:nth-of-type(3){
+.qa-div:nth-of-type(3) {
     width: 603.3px;
 }
-.qa-div-click{
+
+.qa-div-click {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.qa-div p:first-child{
+.qa-div p:first-child {
     font-size: 18px;
     font-weight: 600;
 }
 
-.qa-div p:last-child{
+.qa-div p:last-child {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
 }
 
-.qa-div-click:hover img{
+.qa-div-click:hover img {
     transform: scaleY(-1);
 }
 
-.qa hr{
-    background-color:  #E3DED7;
+.qa hr {
+    background-color: #E3DED7;
 }
+
 /* --------------------------------UBICACION---------------------------- */
 
-section.location{
+section.location {
     padding: 44px 40px;
 }
-.hold-location{
+
+.hold-location {
     display: flex;
     gap: 12px;
 }
 
-.location-article{
+.location-article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 16px;
 }
 
-.location-last{
+.location-last {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,23 +402,84 @@ section.location{
     margin-top: 4px;
 }
 
-.location h3{
+.location h3 {
     font-size: 24px;
     font-weight: 500;
 }
 
-.location-article > p{
+.location-article>p {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
 }
 
-.location-last p{
+.location-last p {
     font-size: 14px;
     font-weight: 600;
     text-decoration: underline;
 }
 
+/* --------------------FORM------------------------- */
+section.form {
+    background-color: rgba(227, 222, 215, 1);
+    padding: 0px 40px;
+}
+
+.hold-form {
+    display: flex;
+    gap: 24px;
+    height: 512px;
+}
+
+.form-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.form-txt h4{
+    color: #111827;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-txt > p:nth-of-type(2){
+    margin-top:20px;
+    margin-bottom:12px;
+}
+
+.form-txt div:last-child{
+    margin-top:20px;
+}
+
+.form-txt p{
+    color: #6B7280;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-txt>div {
+    display: flex;
+    gap: 15px;
+}
+
+.form-txt > .form-txt-address{
+
+    flex-direction: column;
+    gap:0px;
+}
+
+.form-txt-last p:last-child{
+    color: #111827;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.form-txt > .form-txt-last{
+    gap:3px;
+}
 
 /* --------------------------------IMAGENES---------------------------- */
 header>img {
@@ -451,18 +515,23 @@ header>img {
     height: 8px;
 }
 
-.qa-div img{
+.qa-div img {
     width: 10px;
     height: 6px;
     transition: transform 0.3s ease-in-out;
 }
 
-.qa-last img{
+.qa-last img {
     width: 18px;
     height: 8px;
 }
 
-.location-last img{
+.location-last img {
     width: 18px;
     height: 8px;
+}
+
+.form-txt img {
+    width: 18px;
+    height: 18px;
 }
