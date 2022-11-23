@@ -1,0 +1,9 @@
+.red-input:focus,.blue-input:focus {
+    background: yellow;
+    color: red;
+  }
+  
+  .red-input:hover,.blue-input:hover {
+    background: pink;
+    color: black;
+  }
