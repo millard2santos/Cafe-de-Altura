@@ -149,8 +149,7 @@ header button:last-child {
     flex-direction: column;
     gap: 24px;
     height: 284px;
-    padding: 48px 147px;
-    background-color: pink;
+    padding: 48px 142px;
     background-image: url(../assets/background-coffe.jpg);
     background-size: cover;
     background-position: center center;
@@ -177,8 +176,8 @@ article.card {
     justify-content: center;
     align-items: center;
     gap: 16px;
-    width: 292px;
-    height: 208px;
+    width: 268px;
+    height: 184px;
     padding: 24px;
     border: 1px solid #F7F5F3;
     box-shadow: 0px 1px 4px rgba(227, 222, 215, 0.8);
@@ -186,7 +185,7 @@ article.card {
     background-color: rgba(247, 245, 243, 1);
 }
 
-article.card p:first-child {
+article.card p:nth-of-type(1) {
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
@@ -194,13 +193,20 @@ article.card p:first-child {
     color:rgba(43, 42, 43, 1);
 }
 
-article.card p:last-child {
+article.card p:nth-of-type(2) {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
     color: rgba(17, 24, 39, 1);
 }
 
+
+/* -------------------------------------------------------SECTION NEWS--------------------------------------------------- */
+
+.news{
+    height: 523,39px;
+    background-color: pink;
+}
 
 
 /* -----------------------------------------------------------IMAGENES----------------------------------------------------- */
