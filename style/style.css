@@ -150,7 +150,7 @@ header button:last-child {
     flex-direction: column;
     gap: 24px;
     height: 284px;
-    padding: 48px 142px;
+    padding: 48px;
     background-image: url(../assets/background-coffe.jpg);
     background-size: cover;
     background-position: center center;
@@ -166,7 +166,7 @@ h4 {
 
 .hold-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
 
 }
@@ -174,7 +174,7 @@ h4 {
 article.card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 16px;
     width: 268px;
@@ -315,6 +315,8 @@ section.qa{
     color: white;
 }
 
+
+
 .qa h2{
     font-size: 24px;
     font-weight: 500;
@@ -367,7 +369,52 @@ section.qa{
 .qa-div-click:hover img{
     transform: scaleY(-1);
 }
+
+.qa hr{
+    background-color:  #E3DED7;
+}
 /* --------------------------------UBICACION---------------------------- */
+
+section.location{
+    padding: 44px 40px;
+}
+.hold-location{
+    display: flex;
+    gap: 12px;
+}
+
+.location-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.location-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    gap: 19px;
+    margin-top: 4px;
+}
+
+.location h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.location-article > p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.location-last p{
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: underline;
+}
 
 
 /* --------------------------------IMAGENES---------------------------- */
@@ -411,6 +458,11 @@ header>img {
 }
 
 .qa-last img{
+    width: 18px;
+    height: 8px;
+}
+
+.location-last img{
     width: 18px;
     height: 8px;
 }
