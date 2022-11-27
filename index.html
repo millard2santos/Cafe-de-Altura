@@ -37,7 +37,7 @@
             <h1>El mejor café del mundo, ahora en tu casa.</h1>
             <p>Trabajamos con agricultores de todo el mundo para seleccionar los mejores granos de café y que puedas
                 viajar desde la comodidad de tu hogar.</p>
-            <div><button>Descubrir orígenes</button><button>Comprar café</button></div>
+            <div><button>Descubrir orígenes</button><button>Comprar</button></div>
         </article>
         <img src="/assets/mainSection.jpg" alt="Main photo">
     </header>
@@ -64,7 +64,7 @@
                 </article>
             </div>
         </section>
-        <section class="news">
+        <section class="news" id="news">
             <h2>Novedades</h2>
             <div class="hold-cards-coffe">
                 <article class="card-coffe">
@@ -133,7 +133,7 @@
                 <div class="qa-div">
                     <div class="qa-div-click">
                         <p>¿Es posible enviar café a mi oficina?</p>
-                        <img src="/assets/upArrow.png" alt="">
+                        <img src="/assets/upArrow.png" alt="" class="down">
                     </div>
                 </div>
                 <div class="qa-last">
@@ -192,10 +192,13 @@
                             <label for="mail">Email</label>
                             <input class="hover-focus" type="email" id="mail" name="e-mail" required>
                         </div>
-                        <div class="form-actual-margin">
+                        <div class="form-actual-tlf">
                             <label for="tlf">Teléfono</label>
-                            <input class="hover-focus" type="tel" id="tlf" name="Phone"
-                                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="+1 (555) 987-6543">
+                            <div class="US">
+                                <div class="US-actual">US <img src="/assets/upArrow.png" alt=""></div>
+                                <input type="tel" id="tlf" name="Phone"
+                                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+1 (555) 987-6543">
+                            </div>
                         </div>
                         <label for=""></label>
                         <textarea class="hover-focus" name="comment" id="comment" rows="6"
@@ -217,7 +220,7 @@
             </div>
             <div class="hold-footer">
                 <div class="footer-address">
-                    <p>Te ayudamos en</p>
+                    <p id="size18">Te ayudamos en</p>
                     <button class="footer-address-actual">
                         <img src="assets/wPhone.png" alt="">
                         +34 919 49 05 18
