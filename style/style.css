@@ -7,6 +7,7 @@
 
 body {
     height: 100%;
+    /* width: 1280px; */
 }
 
 body::-webkit-scrollbar {
@@ -99,6 +100,7 @@ nav button {
     border: none;
     border-radius: 5px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* -------------------------HEADER--------------------------------------------- */
@@ -107,7 +109,7 @@ header {
     gap: 24px;
     height: 390px;
     padding: 48px 40px;
-    background-color: rgba(227, 222, 215, 0.3);
+    background-color: rgba(227, 222, 215, 0.302);
     font-weight: 600;
 }
 
@@ -159,6 +161,7 @@ header button {
     color: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 
+
 }
 
 header button:last-child {
@@ -173,7 +176,7 @@ header button:last-child {
     gap: 24px;
     height: 284px;
     padding: 48px;
-    background-image: url(../assets/background-coffe.jpg);
+    background-image: url(../assets/other/background-coffe.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -248,6 +251,7 @@ article.card p:nth-of-type(2) {
 .hold-cards-coffe {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     /* width: 1200px; */
     /* height: 391.39px; */
 
@@ -399,13 +403,15 @@ section.qa {
 }
 
 .qa hr {
-    background-color: #E3DED7;
+    /* background-color: #000000; */
+    border: 0.5px solid hsla(0, 0%, 0%, 0.105);
 }
 
 /* --------------------------------UBICACION---------------------------- */
 
 section.location {
     padding: 44px 40px;
+    /* background-color: #E3DED7; */
 }
 
 .hold-location {
@@ -611,6 +617,8 @@ input[type="submit"] {
     gap: 9px;
 }
 
+
+
 input[type="checkbox"] {
     accent-color: rgba(42, 91, 69, 1);
 }
@@ -624,7 +632,7 @@ input[type="checkbox"] {
 footer {
     display: flex;
     flex-direction: column;
-    background-color: #111827;
+    background-color: rgba(31, 24, 21, 1);
     color: white;
     padding: 28px 40px 0px 40px;
 }
@@ -674,6 +682,7 @@ footer h2 {
     background-color: rgba(81, 80, 81, 1);
     color: white;
     border-radius: 4px;
+    border:none;
 }
 
 /* .footer-address-actual:last-child {
@@ -796,3 +805,9 @@ header>img {
     width: 18px;
     height: 14px;
 }
+
+.US img{
+    transform: rotateX(180deg)
+}
+
+

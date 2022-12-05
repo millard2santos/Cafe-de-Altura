@@ -1,0 +1,14 @@
+* {
+    box-shadow: none !important;
+    text-shadow: none !important;
+    
+}
+
+.card-coffe:last-child *{
+    opacity: 0.6;
+}
+
+.card-coffe:last-child button{
+    background-color: #E3DED7;
+    
+}
