@@ -38,6 +38,19 @@ h4{
 .products-each{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid hsla(0, 0%, 0%, 0.137);
+}
+
+.products-each:nth-of-type(1){
+  border-top: none;
+  margin-top: none;
+}
+
+.products-each > div{
+    display: flex;
+    gap: 30px;
+    margin-top: 24px;
 }
 .plus{
     display: flex;
@@ -58,7 +71,7 @@ h4{
 
 
 
-.products-each > img{
+.products-each > div > img{
     width: 55px;
     height: 55px;
 }
