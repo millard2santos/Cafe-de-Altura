@@ -42,7 +42,7 @@ h4{
     border-top: 0.5px solid hsla(0, 0%, 0%, 0.137);
 }
 
-.products-each:nth-of-type(1){
+h4 + .products-each{
   border-top: none;
   margin-top: none;
 }
@@ -69,7 +69,18 @@ h4{
     background-color: hsla(153, 37%, 26%, 0.062);
 }
 
+.products-each p{
+    font-size: 14px;
+}
+.products-each p:first-child {
+    font-weight: 600;
+    font-size: 14px;
+}
 
+.products-each > p{
+    font-weight: 600;
+    font-size: 18px;
+}
 
 .products-each > div > img{
     width: 55px;
@@ -77,9 +88,18 @@ h4{
 }
 
 .checkout{
+    padding: 24px;
     background-color: rgba(227, 222, 215, 1);
 }
 .subtotal{
     display: flex;
     justify-content: space-between;
 }
+
+input[type="radio"]{
+    transform: scale(1.4);
+    /* width: 12px;
+    height: 12px; */
+    accent-color: rgba(42, 91, 69, 1);
+}
+
